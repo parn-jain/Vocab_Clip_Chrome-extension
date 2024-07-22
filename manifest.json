@@ -1,0 +1,22 @@
+{
+    "name":"Vocab-Clip",
+    "version": "1.0.2",
+    "manifest_version":3,
+    "browser_actions":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    },
+    "permissions":["storage","activeTab"],
+    "background":{
+        "service_work":"background.js"
+    },
+
+    "actions": {
+        "default_popup" : "popup.html",
+        "default_icon":{
+            "1":"sd"
+        }
+    }
+
+    
+}
